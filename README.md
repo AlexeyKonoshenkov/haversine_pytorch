@@ -9,9 +9,9 @@ Wall time ~10.5s for 1.1bn pairs - test sample 8,200*132,000
 Example
 -------
     
-l = [[1.01, 1.01], [2.01, 2.01]] \n
-r = [[2.01, 2.01], [3.01, 3.01]] \n
-dist_martix = haversine_torch(l,r)
+    l = [[1.01, 1.01], [2.01, 2.01]]
+    r = [[2.01, 2.01], [3.01, 3.01]]
+    dist_martix = haversine_torch(l,r)
     
 Parameters
 ----------
