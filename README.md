@@ -4,7 +4,7 @@ The pairwise distance calculation between two sets of points with Haversine form
 The function calculates the pairwise distances between point in two lists in meters with >99.5% accuracy. 
 PyTorch vectorized implementation allows usage in CPU and GPU.
 
-Wall time ~10.5s for 1.1bn pairs - test sample 8200*132000
+Wall time ~10.5s for 1.1bn pairs - test sample 8,200*132,000
     
 Example
 -------
@@ -23,4 +23,4 @@ Parameters
     matrix: bool
         If you want to receive the matrix of left*right or tensor of length left*right. Default True.
     R: int
-        Radius of planet where you wnat to measure distance. Default value = 6371000m as radius of earth.
+        Radius of planet where you wnat to measure distance. Default value = 6371000 according to the radius of the Earth.
