@@ -4,7 +4,28 @@ The pairwise distance calculation between two sets of points with Haversine form
 The function calculates the pairwise distances between point in two lists in meters with >99.5% accuracy. 
 PyTorch vectorized implementation allows usage in CPU and GPU.
 
-Wall time ~10.5s for 1.1bn pairs - test sample 8,200*132,000
+Comaprison
+----------
+
+haversine_torch
+    Wall time ~5.9s:
+        - CPU 
+        - 568m pairs
+        - test sample 8,154*69,600
+
+    Wall time ~10.7s:
+         - CPU
+         - 1.1b
+         - test sample 8,154*132,000
+
+
+sklearn.metrics.pairwise.haversine_distances
+    Wall time ~37.4s: 
+         - CPU
+         - 568m pairs
+         - test sample 8,154*69,600
+
+
     
 Example
 -------
