@@ -8,6 +8,7 @@ Comaprison
 ----------
 
 haversine_torch
+    
     Wall time ~5.9s:
         - CPU 
         - 568m pairs
@@ -19,6 +20,7 @@ haversine_torch
          - test sample 8,154*132,000
 
 sklearn.metrics.pairwise.haversine_distances
+    
     Wall time ~37.4s: 
          - CPU
          - 568m pairs
