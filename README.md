@@ -18,7 +18,6 @@ haversine_torch
          - 1.1b
          - test sample 8,154*132,000
 
-
 sklearn.metrics.pairwise.haversine_distances
     Wall time ~37.4s: 
          - CPU
